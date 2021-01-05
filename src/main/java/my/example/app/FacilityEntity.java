@@ -15,5 +15,4 @@ public class FacilityEntity extends NamedEntity {
     public void setGeoCoordinates(String geoCoordinates) {
         this.geoCoordinates = geoCoordinates;
     }
-    
 }

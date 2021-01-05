@@ -1,9 +1,7 @@
 package my.example.app;
 
-
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
-
 
 @JsonTypeInfo(
     use = JsonTypeInfo.Id.NAME,
@@ -34,5 +32,4 @@ abstract class NamedEntity {
     public void setEntity(String entity) {
         this.entity = entity;
     }
-
 }

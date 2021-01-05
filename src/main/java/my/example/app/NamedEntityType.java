@@ -1,7 +1,7 @@
 package my.example.app;
 
 /**
- * A tiny subset of Named Entitites
+ * A tiny subset of Named Entities
  */
 public enum NamedEntityType {
     O /* Other */,
